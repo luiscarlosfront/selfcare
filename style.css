@@ -255,6 +255,24 @@ input[type="reset"] {
   }
 }
 
+@media screen and (max-width: 414px) {
+  .produtos-container {
+    flex-direction: column;
+    margin-right: 5rem;
+  }
+  .produtos-item {
+    width: 100%;
+  }
+
+  .campo {
+    width: 190px;
+  }
+
+  .botao {
+    width: 100px;
+  }
+}
+
 @media screen and (max-width: 393px) {
   .produtos-container {
     flex-direction: column;
